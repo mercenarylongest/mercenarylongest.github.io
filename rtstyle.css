@@ -1,0 +1,50 @@
+@font-face {
+    src: url(fonts/rwby_style.ttf);
+    font-family:rwby_style;
+}
+@font-face {
+    src: url(fonts/coolvetica.ttf);
+    font-family:Coolvetica;
+}
+html {
+    background-image: url('images/roosterteeth.png');
+    background-repeat: repeat;
+}
+a {
+    font-family:Coolvetica;
+    font-size:120%;
+    text-shadow: 2px 2px #7f2a7f;
+    color:#dddddd;
+    background-color: black;
+}
+a:hover {
+    color:#fcfa6a;
+}
+h1 {
+    font-family:rwby_style;
+    font-size:450%;
+    text-shadow:2px 2px #3d0f10;
+    color:#A1282A;
+    margin:0%;
+    margin-bottom:1%;
+    margin-left:1%;
+}
+div#leftmain{ min-width:800px; }
+div#leftmain > div{ margin-left:1%; float:left; text-align:left; width:40%; }
+div#leftmain > div > div > a{ display:inline-block; padding:10px; }
+.bottomright {
+    padding:10px;
+    position:fixed;
+    margin-left:0px;
+    right:1%;
+    bottom:1.5%;
+    z-index:2;
+}
+.bottomleft{
+    padding:10px;
+    position:fixed;
+    margin-left:0px;
+    left:1%;
+    bottom:1.5%;
+    z-index:2;
+}

@@ -1,0 +1,46 @@
+@font-face {
+    src: url(fonts/rwby_style.ttf);
+    font-family:rwby_style;
+}
+@font-face {
+    src: url(fonts/coolvetica.ttf);
+    font-family:Coolvetica;
+}
+html {
+    background-image: url('images/rwby.png');
+    background-repeat: repeat;
+}
+a, button {
+	font-family:Coolvetica;
+	font-size:120%;
+	text-shadow: 2px 2px #7f2a7f;
+	color:#dddddd;
+	background-color: black;
+	border-width:0px;
+	padding:10px;
+}
+a:hover {
+    color:#fcfa6a;
+}
+button:hover{
+	color:#fcfa6a;
+	cursor:pointer;
+}
+h1 {
+	font-family:rwby_style;
+	font-size:450%;
+	text-shadow:2px 2px #3d0f10;
+	color:#A1282A;
+	margin:0%;
+	margin-bottom:1%;
+	margin-left:1%;
+}
+div#leftmain{ min-width:800px; }
+div#leftmain > div{ margin-left:1%; float:left; text-align:left; width:40%; }
+div#leftmain > div > div > a{ display:inline-block; padding:10px; }
+div#rightmain{ min-width:800px;}
+div#rightmain > div{ margin-left:1%; float:left; text-align:left; width:40%; }
+div#rightmain > div > div > a{ display:inline-block; padding:10px; }
+@media all and (min-width:1200px){
+    div#rightmain > div{ margin-right:1%; float:right; text-align:right; width:40%;}
+}
