@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>/RWBYG/</title>
+        <title>WOOBYG</title>
         <meta charset="utf-8">
-	<meta name=”description” content="Link aggregate website for the /rwbyg/ thread on 4chan, aka the 'pastebin'.">    
+	    <meta name=”description” content="Link aggregate website for the /rwbyg/ thread on 4chan, aka the 'pastebin'.">    
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="mainstyle.css" rel="stylesheet" type="text/css"/>
         <link rel="shortcut icon" href="images/rube.ico"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="basic.js"></script>
     </head>
-<body>
-<h1 title="RWBY is mediocre and occasionally dips into bad">RWBY GENERAL PASTEBIN</h1>
+<body onload="randombgandtitle();">
+<span class="rwbyg" title="RWBY is mediocre and occasionally dips into bad">RWBY GENERAL PASTEBIN</span><p id="ed" class="edition"></p>
 <div id="leftmain">
     <div>
     	<div>
-   			<a href="/blurays.html">V1-8 Episodes & Extras (BluRay Rips)</a></br>
-   			<a href="/japaneseblurays.html">V1-6 Japanese Dubs & Extras (BluRay Rips)</a></br>
-   			<a href="https://mega.nz/folder/AjoxVAjb#0YWvlnkZNwMjQR3UF15aBQ">RWBY Chibi S1-3 + New Skits</a><a href="https://mega.nz/folder/y5VTDaDL#K8XocUqwktPTlAGpO9MEdg">RWBY: Fairy Tales</a><br>
-			<a title="The new RWBY anime from SHAFT! No MEGAnon appearance yet, so must use nyaa." href="https://nyaa.si/?f=0&c=0_0&q=rwby">RWBY: Ice Queendom</a><a href="https://mega.nz/folder/UmRj1TLb#_mThHG30ZIjFpUGO54INGA">OP & ED Rips</a></br>
-			<a href="https://mega.nz/folder/I7ZFkS4Z#_Tkd27zxV6V3iByxDp-8Vg">V1-8 OST</a><a href="https://mega.nz/folder/tvg0xb4A#zBpH4kLD2fDhkBeKJTXD2A">Japanese Exclusive V1-4 OST</a></br>
+   		<a href="/blurays.html">V1-8 Episodes & Extras (BluRay Rips)</a></br>
+   		<a href="https://mega.nz/folder/AjoxVAjb#0YWvlnkZNwMjQR3UF15aBQ">RWBY Chibi S1-3 + New Skits</a><a href="https://mega.nz/folder/y5VTDaDL#K8XocUqwktPTlAGpO9MEdg">RWBY: Fairy Tales</a><br>
+            <a title="The new RWBY anime from SHAFT! No MEGAnon appearance yet, so must use nyaa." href="https://nyaa.si/?f=0&c=0_0&q=rwby">RWBY: Ice Queendom</a><a href="https://mega.nz/folder/UmRj1TLb#_mThHG30ZIjFpUGO54INGA">OP & ED Rips</a></br>
+            <a href="https://mega.nz/folder/I7ZFkS4Z#_Tkd27zxV6V3iByxDp-8Vg">V1-8 OST</a><a href="https://mega.nz/folder/tvg0xb4A#zBpH4kLD2fDhkBeKJTXD2A">Japanese Exclusive V1-4 OST</a></br>
     			<br><br>
     		<button onclick="show_hide()">All Manga</button>
-    			<div style="display:none"></br>
+                <div style="display:none"></br>
                     <a href="https://mega.nz/folder/8qI2nRBR#CLaJjfmmWt6UY_PMjgMD8Q">Miwa Shirow Manga</a></br></br>
                         <!-- OLD <a href="https://mangarock.to/manga/4977/rwby.36955" title="NOT missing any chapters. Alternate translations split chapters into two for no reason.">Miwa Shirow Manga</a></br></br> -->
                     <a href="https://mega.nz/folder/knJihJga#8PN8Ec1C8tHrT4n-bPXJTw">Kinami Bunta Manga</a></br></br>
-    				    <!-- OLD <a href="https://manga4life.com/manga/RWBY-The-Official-Manga">Kinami Bunta Manga (V1&2 Only)</a></br></br> -->
-    			<a href="https://mega.nz/folder/hrAgHLgb#njmK3cwBEgJot3vZ8VYpLA">Official Manga Anthology V1-5</a></br>
+                        <!-- OLD <a href="https://manga4life.com/manga/RWBY-The-Official-Manga">Kinami Bunta Manga (V1&2 Only)</a></br></br> -->
+                    <a href="https://mega.nz/folder/hrAgHLgb#njmK3cwBEgJot3vZ8VYpLA">Official Manga Anthology V1-5</a></br>
                         <!-- OLD <a href="https://readcomicmanga.com/manga/86905/rwby-official-manga-anthology">Official Manga Anthology (V1-4)</a><a href="https://nyaa.si/view/1411078">V5</a></br> -->
     			</div></br>
     		<button onclick="show_hide()">All Comics</button>
@@ -58,10 +59,11 @@
     			</div></br>
     				<a href="https://mega.nz/folder/C0NCFYTD#-EvNKIg49ex4h1ZkLEB6tQ">RWBY: The Grimm Campaign/Talk CRWBY To Me</a></br>
     			<br><br>
-			<a href="https://glqv.bitbucket.io/rwby/quotes/" title="Wanna prove that a character said something? Search the episode transcripts easily here.">GLQ's RWBY Quotes</a></br>
-            <a href="https://glqv.bitbucket.io/rwby/gif-maker/" title="Markov chain text generator trained on RWBY dialogue.">GLQ's MRKV Chain</a></br>
-    		<a href="https://glqv.bitbucket.io/rwby/timeline/" title="Timeline of RWBY, based on dialogue in the show and WoG. Take it or leave it.">GLQ's Timeline</a></br>
-    		<a href="https://glqv.bitbucket.io/rwby/gif-maker/" title="Easy browser-based GIF creator using scenes from the show.">GLQ's RWBY GIFMaker</a></br>
+            <a href="https://glqv.bitbucket.io/rwby/events/" title="Countdown to upcoming RWBY events. Made by GLQ.">Upcoming RWBY Events</a></br>
+			<a href="https://glqv.bitbucket.io/rwby/quotes/" title="Wanna prove that a character said something? Search the episode transcripts easily here. Made by GLQ.">RWBY Quotes</a></br>
+            <a href="https://glqv.bitbucket.io/rwby/mrkv-chain/" title="Markov chain text generator trained on RWBY dialogue. Made by GLQ.">MRKV Chain</a></br>
+    		<a href="https://glqv.bitbucket.io/rwby/timeline/" title="Timeline of RWBY, based on dialogue in the show and WoG. Take it or leave it. Made by GLQ.">RWBY's Timeline</a></br>
+    		<a href="https://glqv.bitbucket.io/rwby/gif-maker/" title="Easy browser-based GIF creator using scenes from the show. Made by GLQ.">RWBY GIFMaker</a></br>
 				<br><br>
     		<a href="/faq.html">Frequently Asked Questions</a></br>
     	</div>
@@ -72,20 +74,21 @@
     	<div>
             <button title="Completed or otherwise." onclick="show_hide()">AI Projects</button>
                 <div style="display:none"></br>
-			<a title="Currently working on Weiss. Ruby is waiting for upload." href="/aiprojects.html">Headpatter's AI Projects</a></br></br>
+                    <a title="Currently working on Weiss. Ruby is waiting for upload." href="/aiprojects.html">Headpatter's AI Projects</a></br></br>
                     <a title="Based on V1 Blake. Completed. Forced login." href="https://uberduck.ai/#voice=blake-belladonna&mode=tts-basic">Blake Belladonna</a></br></br>
                     <a title="Completed. Forced login." href="https://app.uberduck.ai/speak#mode=tts-basic&voice=ren-rwby">Lie Ren</a></br>
                 </div></br>
     			<br><br>
-    		<a href="https://www.youtube.com/watch?v=r5JKAQ_2TUg&list=PLHSNUF-1KCOlXcI0rjk7VMYWS9-W1QK8c">"Monty's Vision"</a></br>
-    		<a href="https://docs.google.com/document/d/1bXmgy0rQVvXCrHGmT2GsB8LfzuSxLZZHMQHe1htK6Gw/edit">Who Worked On What</a></br>
-    		<a href="https://docs.google.com/spreadsheets/d/15bN9W0-Ba1G836rplG0WhUg9X2X3CyswwwVd7AMNwuI/">r/RWBY Shipping Chart</a></br>
-    		<a href="https://docs.google.com/spreadsheets/d/1_bnr68pepImz1RDq7uJiQraVnDjU2D0vqmrSE85sF_U/">Public Shipping Chart</a></br>
-    		<a href="http://104.131.69.78/">Beaconship</a></br>
+    		<a href="https://www.youtube.com/watch?v=r5JKAQ_2TUg&list=PLHSNUF-1KCOlXcI0rjk7VMYWS9-W1QK8c" title="A series of videos attempting to discern what Monty's vision is, and who knows it.">"Monty's Vision"</a></br>
+    		<a href="https://docs.google.com/document/d/1bXmgy0rQVvXCrHGmT2GsB8LfzuSxLZZHMQHe1htK6Gw/edit" title="Want to find out who butchered that fight scene? Check who worked on what here.">Who Worked On What</a></br>
+    		<a href="https://docs.google.com/spreadsheets/d/15bN9W0-Ba1G836rplG0WhUg9X2X3CyswwwVd7AMNwuI/" title="A ridiculously comprehensive sheet of ship names aiming to name every ship.">r/RWBY Shipping Chart</a></br>
+    		<a href="https://docs.google.com/spreadsheets/d/1_bnr68pepImz1RDq7uJiQraVnDjU2D0vqmrSE85sF_U/" title="Same concept as r/RWBY's ship chart, but contains more alternate ship names and is updated less.">Public Shipping Chart</a></br>
+    		<a href="http://104.131.69.78/" title="Would you rather but with RWBY characters.">Beaconship</a></br>
     			<br><br>
+            <a href="https://rwby-heardle.glitch.me/" title="Guess the RWBY song off of the first few seconds. Refreshes daily.">RWBY Heardle</a></br>
     		<a href="https://vytalnews.com/" title="Remnant's #1 news outlet!">Vytal News</a></br>
-    		<a href="https://docs.google.com/document/d/1M4RbvG8Ou7n6gEvtP2RJHE3jCf9f7KMqjy875mdWy9M/edit">The Arkos Manifesto</a></br>
-    		<a href="https://docs.google.com/document/d/1zpHx7bRe1ixJEHKgkXuEUu_zidHmsJ20vdsSneMrJJk/edit">The Whiterose Document</a></br>
+    		<a href="https://docs.google.com/document/d/1M4RbvG8Ou7n6gEvtP2RJHE3jCf9f7KMqjy875mdWy9M/edit" title="...">The Arkos Manifesto</a></br>
+    		<a href="https://docs.google.com/document/d/1zpHx7bRe1ixJEHKgkXuEUu_zidHmsJ20vdsSneMrJJk/edit" title="...">The Whiterose Document</a></br>
     			<br><br>
     		<button onclick="show_hide()">All Image Archives</button>
     			<div style="display:none"></br>
@@ -101,6 +104,5 @@
     	</div>
     </div>
 </div>
-<script src="basic.js"></script>
 </body>
 </html>
