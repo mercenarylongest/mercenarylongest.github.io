@@ -1,6 +1,6 @@
 @font-face {
-    src: url(fonts/rwby_style.ttf);
-    font-family:rwby_style;
+    src: url(fonts/rwby-z.ttf);
+    font-family:rwby;
 }
 @font-face {
     src: url(fonts/coolvetica.ttf);
@@ -21,7 +21,7 @@ a:hover {
     color:#fcfa6a;
 }
 h1 {
-    font-family:rwby_style;
+    font-family:rwby;
     font-size:450%;
     text-shadow:2px 2px #3d0f10;
     color:#A1282A;
