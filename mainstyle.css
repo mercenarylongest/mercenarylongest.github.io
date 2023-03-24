@@ -1,6 +1,6 @@
 @font-face {
-    src: url(fonts/rwby_style.ttf);
-    font-family:rwby_style;
+    src: url(fonts/rwby-z.ttf);
+    font-family:rwby;
 }
 @font-face {
     src: url(fonts/coolvetica.ttf);
@@ -23,7 +23,7 @@ button:hover{
 	cursor:pointer;
 }
 .rwbyg {
-	font-family:rwby_style;
+	font-family:rwby;
 	font-size:450%;
 	font-weight: bold;
 	text-shadow:2px 2px #3d0f10;
